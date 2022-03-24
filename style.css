@@ -1,0 +1,166 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #090952;
+    --secondary-color: #ffffff;
+    --third-color: #fff;
+    --fourth-color: #8f8f8f;
+    --fifth-color: #E60000;
+
+    --primary-font: 'Fredoka';
+
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    overflow-x: hidden;
+    color: var(--primary-color);
+    background-color: #0B0B66;
+    color: #1c1c1e;
+    font-family: var(--primary-font);
+}
+     
+
+.logo_z{
+    width: 70%;
+}
+
+#accueil {
+    background: url('assets/img/backgroung_img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.logo_main{
+    width: 400px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.img_livre{
+    width: 12%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.img_affiche{
+    width: 20%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+h1{
+    margin: 20px;
+    margin-top: 0;
+    color:var(--fifth-color) ;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+}
+h2{
+    margin: 20px;
+    color: var(--fifth-color);
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+h3{
+    margin: 10px;
+    color:var(--primary-color) ;
+    text-align: center;
+}
+
+.l{
+    display: flex;
+}
+.l div{
+    width: 100%;
+    position: relative;
+}
+.l li{
+    margin-left: 10px;
+}
+.w{
+    color: white;
+}
+.c{
+    text-align: center;
+}
+.cn{
+    text-align: center;
+    list-style-type: none;
+}
+
+.f{
+    display: flex;
+}
+.n{
+    background: none;
+}
+.m{
+    margin-top: 30vh;
+}
+.section{
+    max-height: 100vh;
+    overflow: hidden;
+}
+.contenu div div{
+    text-align: justify;
+    margin: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+}
+.last{
+    padding: 10px;
+    text-align: justify;
+    margin: 10px;
+    margin-bottom: 70px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+
+.contenu div {
+    background-color: white;
+    margin: 30px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50vw;
+    height: 20vh;
+    font-size: 24px;
+}
+
+@media screen and (max-width: 1300px) {
+    button{
+        display: "block";
+    }
+    html{
+        font-size: 12px;
+    }
+    
+    .img_affiche{
+        width: 12%;
+    }
+} 
+@media screen and (min-width: 1300px) {
+    button{
+        visibility: hidden;
+    }
+} 
