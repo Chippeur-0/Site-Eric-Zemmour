@@ -230,7 +230,12 @@ border-radius: 10px;
     padding-top: 20px;
     padding-left: 20px;
 }
-
+.img_affiche{
+    width: 20%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
 h1{
     margin: 20px;
     margin-top: 0;
