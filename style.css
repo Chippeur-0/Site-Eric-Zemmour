@@ -147,7 +147,7 @@ button{
     font-size: 24px;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1600px) {
     button{
         display: "block";
     }
@@ -159,7 +159,7 @@ button{
         width: 12%;
     }
 } 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1600px) {
     button{
         visibility: hidden;
     }
